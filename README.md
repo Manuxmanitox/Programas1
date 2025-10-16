@@ -146,13 +146,8 @@ function ejercicioNueve(open = "", close = ""){
         console.log(El examen durará abierto ${resultTimeOpen} minutos.);
       }
     }
-  }
-}
-
 //EJECUCION DE FUNCIONES
 ejercicioNueve('Wed Dec 14 2022 11:00:00', 'Wed Dec 14 2022 15:00:00');
-
-
 
 function ejercicioDiez(){
   const nums = [1,2,3,4,5,6,4,2,1];
