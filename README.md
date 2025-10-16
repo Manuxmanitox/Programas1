@@ -124,9 +124,6 @@ personas.filter((el)=>{
 //EJECUCION DE FUNCIONES
 ejercicioOcho();
 
-
-
-
 function ejercicioNueve(open = "", close = ""){
   if(open === "" || close === "") return console.error('Faltan parametros');
   else{
@@ -151,11 +148,9 @@ ejercicioNueve('Wed Dec 14 2022 11:00:00', 'Wed Dec 14 2022 15:00:00');
 
 function ejercicioDiez(){
   const nums = [1,2,3,4,5,6,4,2,1];
-
   let result = nums.filter((item, index)=>{
     return nums.indexOf(item) === index
   });
-
   console.log(Arreglo original: ${nums});
   console.log(result);
 
